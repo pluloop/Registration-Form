@@ -1,0 +1,13 @@
+.form {
+    background-color: light skyblue;
+    margin: 0px auto;
+}
+
+.title {
+    color: black;
+}
+
+.border {
+    border: 1px dotted black;
+    width: 500px;
+}

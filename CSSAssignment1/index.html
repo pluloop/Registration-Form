@@ -1,7 +1,3 @@
-<! 
-- page background-color and margin from class form in div relocated to body due to not being able to change anything
->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration Form </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: blue">
-    <div> 
-        <h1 class="title"> Registration Form </h1>
-        <p> Please fill in the form below. </p>
-        <p class="border"></p>
+<body>
+    <div class="form"> 
+        <h1> Registration Form </h1>
+        <p class="directions"> please fill in the form below. </p>
+        <p class="border"></p> <br>
+        <form class="input">
+            <label> First Name: </label>
+            <input type="text" class="first-name-text-input"> <br>
+            
+            <label> Last Name: </label>
+            <input type="text" class="last-name-text-input"> <br>
+           
+            <label> Email: </label> 
+            <input type="text" class="email-text-input"> <br>
+          
+            <label> DOB: </label>
+            <input type="date" class="dob-date-input"> <br>
+           
+            <label> Phone #: </label>
+            <input type="text" class="phone-text-input"> <br>
+           
+            <label> Username: </label>
+            <input type="text" class="username-text-input"> <br>
+           
+            <label> Password: </label>
+            <input type="password" class="password-password-input"> <br>
+            
+            <button> Submit </button>
+        </form>
     </div>
 </body>
 </html>

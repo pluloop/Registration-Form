@@ -1,13 +1,86 @@
 .form {
-    background-color: light skyblue;
+    width: 1000px;
+    background-color: skyblue;
     margin: 0px auto;
 }
 
-.title {
-    color: black;
+.directions {
+    margin: -15px 0px 0px 0px;
+    width: 400px;
 }
 
 .border {
-    border: 1px dotted black;
-    width: 500px;
+    border: 2px dashed black;
+    width: 300px;
+}
+
+.first-name-text-input {
+    border-radius: 0px;
+    margin: -22px 0px 0px 95px;
+    width: 75px;
+    height: 13px;
+    display: block;
+}
+
+.last-name-text-input {
+    border-radius: 0px;
+    margin: -20px 0px 0px 106px;
+    width: 65px;
+    display: block;
+}
+
+.email-text-input {
+    border-radius: 0px;
+    margin: -20px 0px 0px 55px;
+    width: 105px;
+    display: block;
+}
+
+.dob-date-input {
+    border-radius: 0px;
+    margin: -20px 0px 0px 50px;
+    width: 100px;
+    display: block;
+}
+
+.phone-text-input {
+    border-radius: 0px;
+    margin: -20px 0px 0px 62.5px;
+    width: 90px;
+    display: block;
+}
+
+.username-text-input {
+    border-radius: 0px;
+    margin: -20px 0px 0px 80px;
+    width: 90px;
+    display: block;
+}
+
+.password-password-input {
+    border-radius: 0px;
+    margin: -20px 0px 0px 87px;
+    width: 85px;
+    display: block;
+}
+
+
+label {
+    margin: -14px 0px 0px 0px; 
+    width: 100px;
+    display: block;
+}
+
+.input {
+    margin: -25px 0px 0px 0px;
+}
+
+button {
+    background-color: skyblue;
+    color: black;
+    padding: 0px 18px 0px 0px;
+    margin: -15px 0px 0px 0px;
+    width: 60px;
+    font-size: 10px;
+    display: block;
 }
